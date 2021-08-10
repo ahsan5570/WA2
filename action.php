@@ -1,5 +1,7 @@
 <?php
 
+$updated = true;
+
 $action = ( isset($_REQUEST['action']) && $_REQUEST['action'] ) ? $_REQUEST['action'] : '';
 $message = $message_type = '';
 
