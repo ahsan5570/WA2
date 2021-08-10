@@ -1,6 +1,6 @@
 <?php
 
-$updated = true;
+$updated = 3;
 
 $action = ( isset($_REQUEST['action']) && $_REQUEST['action'] ) ? $_REQUEST['action'] : '';
 $message = $message_type = '';
